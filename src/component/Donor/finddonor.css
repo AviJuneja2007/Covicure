@@ -1,0 +1,27 @@
+
+.findSection{
+    margin-top: 2vmax;
+    margin-left: 8vmax;
+    margin-right: 8vmax;
+    margin-bottom: 10vmax;
+    background-color: ghostwhite;
+    height: auto;
+}
+
+.findSection .selectblood{
+    margin-left: 23vmax;
+    background-color: rgba(221, 53, 53, 0.9);
+    padding: 1vmax;
+    border-radius: 20px;
+}
+
+.findSection h3{
+    font-family: 'Poppins';
+    margin-left: 10vmax;
+    margin-bottom: 1vmax;
+    font-size: 3vmax;
+}
+
+.headding{
+    padding-top: 4vmax;
+}

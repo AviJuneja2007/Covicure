@@ -1,0 +1,52 @@
+.heading{
+    margin-top: 100px;
+}
+
+.form-b{
+    margin-top: 11vmax;
+    margin-left: 20vmax;
+    margin-right: 20vmax;
+}
+
+body{
+    /* margin-top:4.8vmax; */
+    background-color: #f2f3f8;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 15px 1px rgba(52,40,104,.08);
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #e5e9f2;
+    border-radius: .2rem;
+}
+
+.form-group{
+    margin-top: 0.8vmax;
+    margin-bottom: 2vmax;
+}
+
+.outl {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: gray;
+}
+
+.sign-up{
+    margin-top:5vmax;
+}
+
+.sp{
+    padding-left: -60px;
+}

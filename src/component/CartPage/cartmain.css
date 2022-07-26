@@ -1,0 +1,159 @@
+.titleheads{
+    margin: auto;
+}
+.titles{
+    display: flex;
+    font-size: larger;
+    font-weight: 800;
+    justify-content: space-around;
+    flex-direction: row;
+    text-decoration: none;
+    padding-inline: 2vmax;
+    list-style: none;
+    padding: 2vmax;
+    margin: auto;
+}
+.billingitems{
+    height: auto;
+    /* background-color:yellow; */
+    margin: auto;
+    width: 85%;
+}
+
+.billitem{
+    margin-top: 0.2vmax;
+    display: flex;
+    flex-direction: row;
+}
+.billitem .icon{
+    display: inline;
+}
+.billitem .itemName{
+    width: 49%;
+    padding: 1vmax;
+    padding-bottom: 0vmax;
+    background-color:#207570;
+    color: white;
+}
+
+.billitem .itemprice{
+    width: 9%;
+    padding: 1vmax;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 1.4vmax;
+    background-color: white;
+    color:black;
+    padding-bottom: 0vmax;
+}
+
+.billitem .itemquantity{
+    width:30%;
+    background-color: white;
+    padding: 1vmax;
+    padding-left: 9.7vmax;
+}
+.billitem .itemquantity span{
+    border: 2px solid#207570;
+    border-radius: 20%;
+    padding: 0.5vmax;
+}
+.billitem .itemquantity .icon{
+    margin-top: -0.2vmax;
+    color: #207570;
+    cursor: pointer;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+}
+
+.billitem .itemamount{
+    background-color: white;
+    padding: 1vmax 2.3vmax 0vmax 3.5vmax;
+}
+
+.paymentamount{
+    background:  rgba(230, 230, 240, 0.36);
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 85%;
+    margin-top: 10vmax;
+    padding: 1vmax;
+    padding-left: 12vmax;
+    margin-bottom: 4vmax;
+    box-shadow: 0px 4px 4px rgba(200, 71, 71, 0.2 );
+}
+
+.paymentamount h5{
+    margin-left: 36vmax;
+    margin-top: 1.2vmax;
+}
+.paymentamount .amountButton{
+    margin-left: 5vmax;
+    width: 15vmax;
+    height: 4vmax;
+    background-color: #207570;
+    border-radius: 40px;
+    box-shadow: 0px 4px 4px rgba(200, 71, 71, 0.2 );
+}
+
+.cart-items {
+    margin: 30px;
+    /* width: 50%; */
+    background-color: rgb(213, 245, 229);
+    /* border: 2px solid black; */
+    border-radius: 50px;
+}
+
+.cart-items-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border-bottom: 2px solid black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.cart-items-empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.clear-cart{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.clear-cart-button{
+    border: none;
+    border-radius: 5px;
+    background-color: #bd0e0e;
+    height: 30px;
+    width: 100px;
+    font-weight: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.clear-cart-button:hover{
+    background-color: #0e557e;
+}
+
+.cart-items-add:active{
+    transform: translateY(1.2px);
+}
+
+.cart-items-remove:active{
+    transform: translateY(1.2px);
+}

@@ -1,0 +1,39 @@
+.stats {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 34vmax;
+    left: 0px;
+    margin: 0px;
+    top: 8vmax;
+}
+
+.stats h4{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2vmax;;
+    text-transform: uppercase;
+    color: #1F4D82; 
+ }
+
+ .stats h6{
+    margin-top: 1vmax;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1vmax;
+    margin-bottom: 50px;
+}
+
+.stats .lists{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.stats .lists img{
+    margin: 0;
+    height: 6vmax;
+    margin-bottom: 40px;
+}

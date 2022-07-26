@@ -1,0 +1,122 @@
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #3E6797;
+}
+
+li{
+    list-style: none;
+}
+
+.logo{
+    display: grid;
+    font-weight: 700;
+    grid-column: 2/3;
+}
+
+.logo img{
+    height: 32px;
+    margin-top: 18px;
+}
+
+.main-nav{
+    position: relative;
+    position: fixed; 
+    width: 100%;
+    height: 4rem;
+    display: grid;
+    font-weight: bold;
+    background-color: white;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    grid-template-columns: 5rem 1fr 2fr 5rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+
+.menu-link{
+    grid-column: 3/4;
+    margin-top: 18px;
+
+}
+
+.menu-link ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-link ul li:hover > a{
+    color: rgba(0,0,3,0.8);
+    /* text-decoration: underline; */
+    border-bottom: 2px solid black;
+    transition: 0.15s;
+}
+
+.login-button{
+    height: 35px;
+    width: 100px;
+    padding: auto;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    margin-top: -5px;
+    font-weight: 700;
+    text-align: center;
+    color: #3E6797;
+}
+
+.log-btn:hover .log{
+    color: white;
+}   
+
+/* -------------------------------Hero Section---------------------*/
+
+.hero-section{
+    position: absolute;
+    width: 100%;
+    height: 570px;
+    left: 0px;
+    top: 64px;
+    background-color: #CDF1F5;
+    /* z-index: 2; */
+    border-radius: 0px 0px 0px 0px;
+}
+
+.left-info{
+    padding: 100px;
+    padding-left: 88px;
+    color: #3E6797;
+}
+
+.left-info p{
+    padding-right: 250px;
+    text-align: justify;
+}
+
+.hero-image{
+    margin-top: 166px;
+    padding-right: 100px;
+    border-style: none;
+    z-index: 1;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.prevent-button{
+    margin-top: 20px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Mulish', sans-serif;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    background-color: #3E6797;
+}

@@ -1,0 +1,17 @@
+.navbar h1{
+    padding-bottom: 1vmax;
+    text-transform: capitalize;
+}
+
+.btn-group{
+    border-radius: 1rem;
+    text-transform: capitalize;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+

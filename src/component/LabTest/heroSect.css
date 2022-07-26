@@ -1,0 +1,77 @@
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+/* -------------------------------Hero Section---------------------*/
+
+.Labhero-section{
+    position: sticky;
+    width: 100%;
+    height: 40vmax;
+    left: 0px;
+    background-color: #D4E5FF;
+    border-radius: 0px 0px 300px 0px;
+}
+
+.Labhero-section h1{
+    font-size: 2.5vmax;
+}
+.Labhero-section h2{
+    font-size: 1.9vmax;
+}
+
+.Labhero-section .off{
+    font-size: 2.5vmax;
+    font-weight:bolder;
+}
+
+.Labhero-section .abovebutton{
+    font-size: 2vmax;
+    padding-right: 20vmax;
+}
+
+.Labhero-section .left-info{
+    padding: 8vmax;
+    color:black;;
+    height: auto;
+    font-size: 1vmax;
+    width: 50%;
+    float: left;
+    margin-top: 2vmax;
+}
+
+.Labhero-section .left-info p{
+    padding-right: 10vmax;
+    text-align: justify;
+}
+
+.Labhero-section .labhero-image{
+    float: right;
+    position: relative;
+    margin-top: 10vmax;
+    margin-right: 15vmax;
+    /*padding-right: 38vmax; */
+    border-style: none;
+    width: 30vw;
+    height: auto;
+}
+
+.Labhero-section{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+}
+
+.Labhero-section .prevent-button{
+    margin-top: 2vmax;
+    margin-bottom: 2vmax;
+    border-radius: 25px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Mulish', sans-serif;
+    padding: 1vmax;
+    /* padding-left: 1vmax; */
+    /* padding-right: 20px; */
+    font-size: 15px;
+    background-color: #3E6797;
+}

@@ -1,0 +1,50 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    /* font-family: 'Poppins'; */
+/* } */
+
+.formpart{
+    width: 65%;
+    margin: auto;
+    margin-top: 4vmax;
+}
+
+.formpart h3{
+    font-family: 'Poppins';
+    margin-bottom: 1vmax;
+    font-size: 3vmax;
+}
+
+.formpart .mb-3{
+    font-family: 'Poppins';
+}
+
+.formpart Button{
+    background-color: rgb(50, 102, 58);
+    padding: 0.9vmax;
+    border-radius:25px ;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 1vmax;
+    margin-bottom: 1vmax;
+}
+
+.formpart .selectbutt{
+    margin-left: 24vmax;
+}
+
+.formpart .joinbutton{
+    margin-left: 26vmax;
+    padding: 1vmax;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 4vmax;
+}
+
+.formpart .pickgrp{
+    color: rgb(50, 102, 58);
+}

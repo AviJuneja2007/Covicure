@@ -1,0 +1,104 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* margin-top: 8vmax; */
+    margin-left: 1vmax !important;
+    margin-right: 1vmax !important;
+    margin-bottom: 2vmax !important;
+    margin-top: 2vmax !important;
+}
+
+.main-heading{
+    margin-top: 4vmax;
+    margin-left: 3.4vmax;
+    margin-right: 3.4vmax;
+    border-bottom: 0.2vmax solid #4b85c7;
+}
+
+.buy-card-container{
+    margin-top: 4vmax;
+    height: 30vmax;
+    width: 20vmax;
+    margin-left: 1.5vmax;
+    margin-right: 1.5vmax;
+    margin-bottom: 5vmax;
+    /* border-radius: 50px 0px 0px 0px; */
+    border-radius: 0vmax 0vmax 2vmax 2vmax;
+    box-shadow: 0 0 20px 2px #999;
+}
+
+.buy-card-container:hover{
+    transition: .7s;
+    transform: translateY(-30px);
+}
+
+.buy-image{
+    align-items: center;
+    justify-content: center;
+    margin-left: 4vmax;
+    margin-right: 4vmax;
+    margin-top: 2vmax;
+}
+
+.buy-image img{
+    align-items: center;
+    justify-content: center;
+    height: 12vmax;
+    width: 10vmax;
+    margin-left: 1vmax;
+}
+
+.lower-part{
+    margin-top: 2vmax;
+    justify-content: center;
+    color: white;
+    background-color: #4b85c7;
+    height: 14vmax;
+    padding-top: 2vmax;
+    border-radius: 0vmax 0vmax 2vmax 2vmax;
+}
+
+.naam{
+    position: sticky;
+    font-size: 1.5vmax;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding-left: 3vmax;
+    padding-right: 3vmax;
+    height: 6vmax;
+
+}
+
+.quant{
+    margin-top: -0.5vmax;
+    font-size: 1vmax;
+    position: sticky;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding-left: 3vmax;
+}
+
+.buy-price{
+    margin-top: -1vmax;
+    padding-top: -3vmax;
+    padding-left: 3vmax;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vmax;
+    font-weight: bolder;
+}
+
+.lower-part .book-button{
+    margin-top: -2.5vmax;
+    margin-left: 12vmax;
+    margin-bottom: 2vmax;
+    position: sticky;
+    padding-top: 0.5vmax;
+    padding-bottom: 0.5vmax;
+}
+
+.lower-part .book-button:hover{
+    transition: .7s;
+    transform: translateY(-10px);
+}

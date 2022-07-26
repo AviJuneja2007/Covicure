@@ -1,0 +1,19 @@
+.banners{
+    position: relative;
+    margin-top: 1250px;
+    margin: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.banners img{
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+}
+
+.banners .second img , .third img, .fourth img{
+    margin-top: 0;
+}

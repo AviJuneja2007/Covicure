@@ -1,0 +1,66 @@
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+/* -------------------------------Hero Section---------------------*/
+
+.buy-hero{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 35vmax;
+    left: 0px;
+    padding-top: 4vmax;
+    border-radius: 0px 0px 300px 0px;
+    background-color: #E3E0F1;
+    
+}
+
+.buy-hero .buy-left-info h1{
+    position: relative;
+    font-size: 2.5vmax;
+}
+.buy-left-info{
+    position: sticky;
+    margin-top: 6vmax;
+    color: #3E6797;
+    height: auto;
+    font-size: 1vmax;
+    width: 60%;
+    margin-left: 10vmax;
+}
+
+.buy-hero .buy-left-info p{
+    padding-right: 0vmax;
+    text-align: justify;
+    color: black;
+    font-size: 1.5vmax;
+}
+
+p .ico{
+    color: #3E6797;
+}
+
+.buy-hero Button{
+    margin-top: 2vmax;
+    border-radius: 25px;
+    color: white;
+    position: relative;
+    font-weight: 700;
+    font-family: 'Mulish', sans-serif;
+    padding: 1vmax;
+    font-size: 1vmax;
+    background-color: #3E6797;
+    cursor: pointer;
+}
+.buy-hero .buy-img img{
+    position: sticky;
+    float: right;
+    margin-top: -2vmax;
+    /* padding-right: 1vmax; */
+    margin-right: 5vmax;
+    border-style: none;
+    width: 40vw;
+    border-radius: 0px 0px 9vmax 0px;
+}
+
