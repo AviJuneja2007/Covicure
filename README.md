@@ -69,11 +69,11 @@ Before setting up the project, ensure you have the following installed on your s
 ## Steps to Install and Run Covicure
 
 ### Step 1: Clone the Repository
-First, clone the project repository from GitHub:
-```bash
-git clone https://github.com/AviJuneja2007/Covicure.git
-cd Covicure
-```
+   First, clone the project repository from GitHub:
+   ```bash
+   git clone https://github.com/AviJuneja2007/Covicure.git
+   cd Covicure
+   ```
 
 ### Step 2: Set Up the Backend
 1. Navigate to the backend folder:
@@ -114,7 +114,9 @@ cd Covicure
    npm start
    ```
    
-  The application will open in your default browser at:
-  ```bash
-  http://localhost:3000
-  ```
+   The application will open in your default browser at:
+   ```bash
+   http://localhost:3000
+   ```
+
+
