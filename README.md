@@ -54,6 +54,33 @@ The backend is built using **Node.js** with **Express.js** to create a RESTful A
 ### 3. Database
 The database layer uses **MongoDB**, managed via **Mongoose**.
 
+## High-Level Design (HLD) 🏗️
+
+### Architecture
+Frontend (React.js)
+        |
+        |-----> React Router for navigation
+        |
+Backend (Node.js + Express.js)
+        |
+        |-----> API Endpoints
+        |
+Database (MongoDB)
+
+### Data Flow
+- Frontend Interaction: Users interact with the React frontend (e.g., clicks "Find Donor").
+- API Processing: The backend authenticates the user and processes the request.
+- Database Operations: Backend queries MongoDB and returns the required data.
+- Response Rendering: Frontend dynamically updates the UI with the fetched data.
+
+### Tools & Technologies
+-	Frontend: React.js, React Router, Bootstrap, Axios
+-	Backend: Node.js, Express.js
+-	Database: MongoDB (via Mongoose)
+-	Authentication: JSON Web Tokens (JWT)
+-	Version Control: GitHub
+
+
 ## Installation and Setup 🛠️
 
 Follow these steps to run the **Covicure** application locally.
