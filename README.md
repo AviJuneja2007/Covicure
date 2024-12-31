@@ -115,6 +115,25 @@ Before setting up the project, ensure you have the following installed on your s
    ```bash
    http://localhost:3000
    ```
+
+## Technologies Used 🛠️
+
+### Frontend
+- **React**: Component-based architecture for building UIs.
+- **CSS**: For styling and responsiveness.
+
+### Backend
+- **Node.js**: JavaScript runtime environment.
+- **Express**: Backend web framework for API development.
+
+### Database
+- **MongoDB**: NoSQL database for data storage.
+
+### Other Tools
+- **JWT**: Secure token-based authentication.
+- **Bcrypt**: For encrypting user passwords.
+- **Axios**: To handle HTTP requests.
+
 ## Screenshots
 
 ### Homepage
