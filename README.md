@@ -51,9 +51,6 @@ The backend is built using **Node.js** with **Express.js** to create a RESTful A
   - JWT for secure authentication.
 - **Error Handling**: Comprehensive handling for unexpected errors.
 
-### 3. Database
-The database layer uses **MongoDB**, managed via **Mongoose**.
-
 ## High-Level Design (HLD) 🏗️
 
 ### Architecture
@@ -67,18 +64,61 @@ Backend (Node.js + Express.js)
         |
 Database (MongoDB)
 
+
 ### Data Flow
-- Frontend Interaction: Users interact with the React frontend (e.g., clicks "Find Donor").
-- API Processing: The backend authenticates the user and processes the request.
-- Database Operations: Backend queries MongoDB and returns the required data.
-- Response Rendering: Frontend dynamically updates the UI with the fetched data.
+1. **Frontend Interaction**: Users interact with the React-based frontend through various UI components.
+   - For example, clicking on "Find Donor" sends a request to fetch donor information.
+2. **API Processing**: 
+   - The request is routed to the backend (Node.js + Express.js) via API endpoints.
+   - Middleware handles authentication (if required) and processes the request.
+3. **Database Operations**:
+   - The backend interacts with MongoDB via Mongoose to fetch or update data.
+   - Example: Fetching a list of available donors from the `Donors` collection.
+4. **Response Rendering**: The backend sends the processed response to the frontend, which dynamically updates the UI.
+
+---
+
+### Key Components and Responsibilities
+1. **Frontend (React.js)**:
+   - React Router is used for navigation.
+   - Context API and `useReducer` manage global states such as authentication and cart management.
+   - Axios is used to make API requests.
+
+2. **Backend (Node.js + Express.js)**:
+   - Handles business logic and serves RESTful API endpoints.
+   - Middleware is implemented for request validation, authentication, and error handling.
+   - Secure user authentication with JSON Web Tokens (JWT).
+
+3. **Database (MongoDB)**:
+   - NoSQL database for storing structured data.
+   - Collections include:
+     - `Users`: Stores user credentials and session data.
+     - `Products`: Details of items available for purchase.
+     - `Donors`: Information about registered plasma or blood donors.
+     - `LabTests`: Records of booked lab tests.
+     - `Orders`: User order history.
+
+---
 
 ### Tools & Technologies
--	Frontend: React.js, React Router, Bootstrap, Axios
--	Backend: Node.js, Express.js
--	Database: MongoDB (via Mongoose)
--	Authentication: JSON Web Tokens (JWT)
--	Version Control: GitHub
+- **Frontend**:
+  - React.js
+  - React Router
+  - Bootstrap for styling
+  - Axios for HTTP requests
+
+- **Backend**:
+  - Node.js
+  - Express.js
+  - JSON Web Tokens (JWT) for authentication
+
+- **Database**:
+  - MongoDB
+  - Mongoose (ORM)
+
+- **Version Control**:
+  - GitHub for repository management
+
 
 
 ## Installation and Setup 🛠️
