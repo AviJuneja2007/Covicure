@@ -94,6 +94,6 @@ cd Covicure
    ```
 
 4. Start the backend server:
-  ```bash
-  nodemon app.js
-  ```
+   ```bash
+   nodemon app.js
+   ```
