@@ -139,13 +139,12 @@ This page allows users to book COVID-19 lab tests conveniently.
 
 ### Donor Search
 Users can search for plasma or blood donors based on their location and blood type.
-![Donor Search](link_to_donor_search_screenshot)
+![Donor Search](https://github.com/AviJuneja2007/Covicure/blob/main/4.1.png?raw=true)
 
+![Donor Search2](https://github.com/AviJuneja2007/Covicure/blob/main/4.2.png?raw=true)
 ---
 
 ### Cart Management
 The cart page enables users to view, add, or remove items from their cart and proceed to checkout.
-![Cart Management](https://github.com/AviJuneja2007/Covicure/blob/main/4.1.png?raw=true)
-
-![Cart Management2](https://github.com/AviJuneja2007/Covicure/blob/main/4.2.png?raw=true)
+![Cart Management](https://github.com/AviJuneja2007/Covicure/blob/main/5.png?raw=true)
 ---
