@@ -2,8 +2,6 @@
 
 Covicure is a full-stack healthcare web application that combines real-time COVID-19 updates, an e-commerce platform for medicines and lab tests, and a blood donor management system. This application is designed to simplify access to healthcare while providing secure and seamless functionalities to its users.
 
-![Homepage](https://github.com/AviJuneja2007/Covicure/blob/main/1.png?raw=true)
-
 ## Features 🚀
 ### 🦠 Real-Time COVID-19 Stats
 - Displays live COVID-19 data, including confirmed cases, recoveries, and deaths.
@@ -127,14 +125,16 @@ The homepage provides COVID-19 awareness content, precautionary measures, and li
 
 ### Buy Page
 Users can browse and purchase COVID-19-related products such as masks and sanitizers.
-![Buy Page](link_to_buy_page_screenshot)
+![Buy Page1](https://github.com/AviJuneja2007/Covicure/blob/main/2.1.png?raw=true)
 
+![Buy Page2](https://github.com/AviJuneja2007/Covicure/blob/main/2.2.png?raw=true)
 ---
 
 ### Lab Test Booking
 This page allows users to book COVID-19 lab tests conveniently.
-![Lab Test Booking](link_to_lab_test_booking_screenshot)
+![Lab Test Booking1](https://github.com/AviJuneja2007/Covicure/blob/main/3.1.png?raw=true)
 
+![Lab Test Booking2](https://github.com/AviJuneja2007/Covicure/blob/main/3.2.png?raw=true)
 ---
 
 ### Donor Search
@@ -145,23 +145,7 @@ Users can search for plasma or blood donors based on their location and blood ty
 
 ### Cart Management
 The cart page enables users to view, add, or remove items from their cart and proceed to checkout.
-![Cart Management](link_to_cart_management_screenshot)
+![Cart Management](https://github.com/AviJuneja2007/Covicure/blob/main/4.1.png?raw=true)
 
+![Cart Management2](https://github.com/AviJuneja2007/Covicure/blob/main/4.2.png?raw=true)
 ---
-
-### Signup and Login
-Users can create an account or log in to access personalized features like their order history and bookings.
-![Signup and Login](link_to_signup_login_screenshot)
-
----
-
-### Error Page
-A user-friendly error page for when a requested route or feature is unavailable.
-![Error Page](link_to_error_page_screenshot)
-
----
-
-### Place Order
-Allows users to confirm their purchase and finalize their orders.
-![Place Order](link_to_place_order_screenshot)
-
