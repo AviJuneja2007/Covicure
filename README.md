@@ -73,6 +73,7 @@ First, clone the project repository from GitHub:
 ```bash
 git clone https://github.com/AviJuneja2007/Covicure.git
 cd Covicure
+```
 
 ## Step 2: Set Up the Backend
 1. Navigate to the backend folder:
@@ -80,16 +81,17 @@ cd Covicure
    cd backend
 
 2. Install dependencies:
-bash
-npm install
-
+  ```bash
+  npm install
+  ```
 3. Configure environment variables:
-Create a .env file in the backend folder.
-Add the following variables:
-makefile
-MONGO_URI=<Your MongoDB connection string>
-JWT_SECRET=<Your secret key for JWT>
+  Create a .env file in the backend folder.
+  Add the following variables:
+  makefile
+  MONGO_URI=<Your MongoDB connection string>
+  JWT_SECRET=<Your secret key for JWT>
 
 4. Start the backend server:
-bash
-nodemon app.js
+  ```bash
+  nodemon app.js
+  ```
