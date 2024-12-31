@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Covicure 🩺💊
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Covicure is a full-stack healthcare web application that combines real-time COVID-19 updates, an e-commerce platform for medicines and lab tests, and a blood donor management system. This application is designed to simplify access to healthcare while providing secure and seamless functionalities to its users.
 
-## Available Scripts
+## Features 🚀
+### 🦠 Real-Time COVID-19 Stats
+- Displays live COVID-19 data, including confirmed cases, recoveries, and deaths.
+- Data fetched from a public **COVID-19 API** for global updates.
+### 🛍️ E-Commerce for Healthcare
+- Users can browse a **catalog of medicines** and **pathological lab tests**.
+- Add products to a **shopping cart** and **place orders**.
+### 🩸 Blood Donor Management
+- **Find local blood donors** using a local API.
+- **Join as a blood donor**, with data securely stored in a **MongoDB cluster** for public access after verification.
+### 🔐 Secure User Authentication
+- **JWT authentication** for login and signup.
+- **Bcrypt** for password encryption.
+### 📋 Cart Functionality
+- Add lab tests and medicines to the cart.
+- Complete the checkout process to place orders.
 
-In the project directory, you can run:
+## Technical Summary
+### 1. Frontend 
+The frontend is built using **React.js** and features a responsive and interactive user interface. 
 
-### `npm start`
+#### Key Highlights:
+- **React Router**: Used for navigation between pages.
+- **State Management**: Utilizes `useState`, `useReducer`, and the Context API for managing user authentication and cart state.
+- **Styling**: Designed with Bootstrap and custom CSS for a clean and responsive UI.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Key Pages:
+- **Home**: Displays COVID-19 awareness content.
+- **Buy Page**: Lists products available for purchase.
+- **Book Test**: Allows users to book lab tests.
+- **Find Donor**: Helps users locate plasma or blood donors.
+- **Cart**: Manages products added to the cart.
+- **Signup/Login**: Facilitates user registration and authentication.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Backend
+The backend is built using **Node.js** with **Express.js** to create a RESTful API for business logic and data handling.
 
-### `npm test`
+#### Key Features:
+- **API Endpoints**:
+  - `/auth`: Handles user authentication (signup, login, logout).
+  - `/products`: Fetches product listings and manages cart operations.
+  - `/tests`: Handles lab test bookings.
+  - `/donors`: Retrieves donor data based on user queries.
+  - `/cart`: Manages user shopping cart.
+- **Middleware**:
+  - Body parsing for request data.
+  - JWT for secure authentication.
+- **Error Handling**: Comprehensive handling for unexpected errors.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. Database
+The database layer uses **MongoDB**, managed via **Mongoose**.
 
-### `npm run build`
+#### Collections:
+- **Users**: Stores user credentials and session data.
+- **Products**: Stores product details.
+- **LabTests**: Records lab test bookings.
+- **Donors**: Maintains donor information.
+- **Orders**: Logs user order history.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
