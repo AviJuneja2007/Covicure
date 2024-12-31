@@ -97,3 +97,24 @@ cd Covicure
    ```bash
    nodemon app.js
    ```
+
+### Step 3: Set Up the Frontend
+1. Navigate to the frontend folder:
+   ```bash
+   cd ../frontend
+   ```
+      
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+   
+3. Start the frontend development server:
+   ```bash
+   npm start
+   ```
+   
+  The application will open in your default browser at:
+  ```bash
+  http://localhost:3000
+  ```
