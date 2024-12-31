@@ -54,10 +54,42 @@ The backend is built using **Node.js** with **Express.js** to create a RESTful A
 ### 3. Database
 The database layer uses **MongoDB**, managed via **Mongoose**.
 
-#### Collections:
-- **Users**: Stores user credentials and session data.
-- **Products**: Stores product details.
-- **LabTests**: Records lab test bookings.
-- **Donors**: Maintains donor information.
-- **Orders**: Logs user order history.
+## Installation and Setup 🛠️
 
+Follow these steps to run the **Covicure** application locally.
+
+### Prerequisites
+Before setting up the project, ensure you have the following installed on your system:
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [MongoDB](https://www.mongodb.com/) (Running locally or via a cloud service like MongoDB Atlas)
+- [Git](https://git-scm.com/)
+
+---
+
+## Steps to Install and Run Covicure
+
+### Step 1: Clone the Repository
+First, clone the project repository from GitHub:
+```bash
+git clone https://github.com/AviJuneja2007/Covicure.git
+cd Covicure
+
+## Step 2: Set Up the Backend
+1. Navigate to the backend folder:
+   ```bash
+   cd backend
+
+2. Install dependencies:
+bash
+npm install
+
+3. Configure environment variables:
+Create a .env file in the backend folder.
+Add the following variables:
+makefile
+MONGO_URI=<Your MongoDB connection string>
+JWT_SECRET=<Your secret key for JWT>
+
+4. Start the backend server:
+bash
+nodemon app.js
